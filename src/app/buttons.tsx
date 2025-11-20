@@ -11,11 +11,11 @@ import {
 
 export default function Buttons() {
     const onPress = () => {
-        console.log("You tapped the button!");
+        // console.log("You tapped the button!");
         Alert.alert("You tapped the button!");
     };
     const onLongPress = () => {
-        console.log("You long-pressed!");
+        // console.log("You long-pressed!");
         Alert.alert("You long-pressed!");
     };
     return (
