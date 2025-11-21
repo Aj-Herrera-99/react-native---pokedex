@@ -35,7 +35,7 @@ export default function Audio() {
             }
 
             setAudioModeAsync({
-                allowsRecordingIOS: false,
+                // allowsRecordingIOS: false,
                 playsInSilentMode: true,
                 allowsRecording: true,
                 shouldPlayInBackground: false,
